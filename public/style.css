@@ -7,6 +7,15 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'SandollSamlipHobbangBasic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --paper: #f5f3ee;
     --ink: #252922;
@@ -586,10 +595,6 @@ input:focus-visible,
     opacity: .8;
 }
 
-
-
-
-
     h1 {
         letter-spacing: -2px;
     }
@@ -598,20 +603,10 @@ input:focus-visible,
         font-size: 17px;
     }
 
-}
-
-
-
-
-
-
     .routine-arrow {
         flex: 0 0 18px;
         font-size: 18px;
     }
-}
-
-
 
 /* 상세페이지 명칭 표기 */
 .detail-title {
@@ -871,4 +866,9 @@ input:focus-visible,
         width: 100%;
         min-height: 0;
     }
+}
+
+#routine-title {
+    font-family: 'SandollSamlipHobbangBasic', sans-serif;
+    font-weight: normal;
 }
