@@ -871,4 +871,5 @@ input:focus-visible,
 #routine-title {
     font-family: 'MaruBuri', serif;
     font-weight: 700;
+    font-size: clamp(24px, 2.5vw, 32px);
 }
