@@ -869,12 +869,12 @@ input:focus-visible,
 }
 
 .routine-heading {
-    padding-left: 19px;
+    padding-left: 15px;
 }
 
 #routine-title {
-    margin: 10px 0;
-    line-height: 0.5;
+    margin: 6px 0;
+    line-height: 1;
     font-family: 'MaruBuri', serif;
     font-weight: 700;
     font-size: clamp(24px, 2.5vw, 32px);
