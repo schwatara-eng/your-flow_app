@@ -8,10 +8,10 @@
 }
 
 @font-face {
-    font-family: 'SandollSamlipHobbangBasic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff')
-        format('woff');
-    font-weight: normal;
+    font-family: 'MaruBuri';
+    src: url('https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Bold.woff2')
+        format('woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -869,6 +869,6 @@ input:focus-visible,
 }
 
 #routine-title {
-    font-family: 'SandollSamlipHobbangBasic', sans-serif;
-    font-weight: normal;
+    font-family: 'MaruBuri', serif;
+    font-weight: 700;
 }
