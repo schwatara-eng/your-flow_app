@@ -873,8 +873,8 @@ input:focus-visible,
 }
 
 #routine-title {
-    margin: 12px 0;
-    line-height: 1.4;
+    margin: 10px 0;
+    line-height: 1;
     font-family: 'MaruBuri', serif;
     font-weight: 700;
     font-size: clamp(24px, 2.5vw, 32px);
