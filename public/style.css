@@ -868,7 +868,13 @@ input:focus-visible,
     }
 }
 
+.routine-heading {
+    padding-left: 19px;
+}
+
 #routine-title {
+    margin: 12px 0;
+    line-height: 1.4;
     font-family: 'MaruBuri', serif;
     font-weight: 700;
     font-size: clamp(24px, 2.5vw, 32px);
