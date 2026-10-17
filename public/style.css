@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'YleeMemoriesNeverSleep';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/yleeMortalHeartImmortalMemory.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
     --paper: #f5f3ee;
     --ink: #252922;
@@ -57,8 +66,9 @@ header > span {
 }
 
 .brand {
-    font-size: 28px;
-    font-weight: 900;
+    font-family: 'YleeMemoriesNeverSleep', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -66,6 +76,7 @@ header > span {
 
 .brand span {
     display: block;
+    font-family: Arial, 'Noto Sans KR', sans-serif;
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 2px;
