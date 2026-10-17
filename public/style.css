@@ -81,6 +81,7 @@ header > span {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    -webkit-text-stroke: 0.4px currentColor;
 }
 
 .brand span {
@@ -90,6 +91,7 @@ header > span {
     font-weight: 400;
     letter-spacing: 2px;
     margin-top: 5px;
+    -webkit-text-stroke: 0;
 }
 
 main {
